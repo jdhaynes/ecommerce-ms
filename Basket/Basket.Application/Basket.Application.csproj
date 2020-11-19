@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="CommandHandlers" />
+      <Folder Include="Commands" />
+      <Folder Include="Queries" />
+      <Folder Include="QueryHandlers" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Basket.Domain\Basket.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
